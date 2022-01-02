@@ -1,63 +1,87 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link href="./Style.css" type="text/css" rel="stylesheet" />
-    <link href="./favicon.ico" type="text/css" rel="icon"/ />
-    <!--Font family links -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<head>
+  <meta charset="utf-8">
+  <link href="./Style.css" type="text/css" rel="stylesheet" />
+  <link href="./favicon.ico" type="text/css" rel="icon" / />
+  <!--Font family links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Merriweather+Sans:ital@1&display=swap" rel="stylesheet">
-    <title>Steve Q</title>
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud"/>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Open+Sans&display=swap" rel="stylesheet">
+  <!--Bootstrap cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="top-container">
+    <div class="float-right">
       <h1>Hello! I'm Steven</h1>
       <h3>Developer for hire</h3>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud"/>
-      <img src="images/plane.gif" alt="plane"/>
+      <img src="images/codeanim.gif" alt="code animation" />
     </div>
+  </div>
 
-      <div class="middle-container">
-        <div class="profile">
-          <img src="images/self-image2.jpg" alt="bgimage">
-          <h2>Hello.</h2>
-          <p class="intro">Greetings Everyone,
-  				As part of my programming journey and overall interest in tech, I created this site to present various projects that I'll be working on.
-  				Feel free to browse my content.</p>
-        </div>
-        <hr>
-        <div class="skills">
-          <h2>My Skills.</h2>
-          <div class="skill-row">
-            <img class="code-img" src= "images/coding screen.png" alt="Code Screen">
-            <h3 class="code-title">Here are some skills I'm currently learning</h3>
-            <p class="code-description">Java, C#, Javascript, Kali Linux.  Project page coming soon.</p>
-          </div>
-          <div class="skill-row">
-            <img class="fitness-img" src="images/dumbbell.png" alt="dumbbell">
-            <h3 class="fit-description">Fitness Enthusiast</h3>
-            <p class="fitness-description">Putting in a fair amount of work at the gym for my own health.  Gallery available on my social media platfrom(s)</p>
-          </div>
-        </div>
-        <hr>
-        <div class="contact-me">
-          <h2>Get In Touch</h2>
-          <h3 class="contact-message">Feel free to reach out!</h3>
-          <p>Social media links:</p>
-          <a class="btn" href="steve.q7@outlook.com">CONTACT ME</a>
-        </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/self-image2.jpg" alt="bgimage">
+      <h2>Hello.</h2>
+      <p class="intro">Greetings Everyone,
+        As part of my programming journey and overall interest in tech, I created this site to present various projects that I'll be working on.
+        Feel free to browse my content.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/coding screen.png" alt="Code Screen">
+        <h3 class="code-title">Here are some skills I'm currently learning</h3>
+        <p class="code-description">Languages:Java, C#, Javascript, SQL. Project page coming soon.</p>
       </div>
-
-
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">Reddit</a>
-        <a class="footer-link" href="https://twitter.com/">Instagram</a>
-        <a class="footer-link" href="https://www.appbrewery.co/">TikTok</a>
-        <p>© SteveQ</p>
+      <div class="skill-row">
+        <img class="fitness-img" src="images/dumbbell.png" alt="dumbbell">
+        <h3 class="fit-description">Fitness Enthusiast</h3>
+        <p class="fitness-description">Putting in a fair amount of work at the gym for my own health. Gallery available on my social media platfrom(s)</p>
       </div>
+      <div class="skill-row">
+        <img class="controller-img" src="images/game-controller.png" alt="gaming">
+        <h3 class="game-title">Gaming Connoisseur</h3>
+        <p class="game-description">Currently playing through Halo: Infinite. However I did make a list of some of my favorites:</p>
+        <table id ="games-list">
+          <tr>
+          <td>Metal Gear Solid</td>
+          <td>Zelda</td>
+          </tr>
+          <tr>
+            <td>Overwatch</td>
+            <td>Genshin Impact</td>
+          </tr>
+          <tr>
+            <td>Tomb Raider</td>
+            <td>Borderlands</td>
+          </tr>
+
+        </table>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="contact-message">Feel free to reach out!</h3>
+      <p>Social media links:</p>
+    </div>
+  </div>
 
 
-  </body>
+  <div class="bottom-container">
+    <a button type="button" class="btn btn-dark" href="steve.q7@outlook.com">CONTACT ME</a>
+    <a class="footer-link" href="https://www.linkedin.com/">Reddit</a>
+    <a class="footer-link" href="https://twitter.com/">Instagram</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">TikTok</a>
+    <p>© SteveQ</p>
+  </div>
+
+
+</body>
+
 </html>
