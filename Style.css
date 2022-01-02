@@ -2,7 +2,7 @@ body {
   margin: 0;
   text-align: center;
   color: #40514E;
-  font-family: 'Indie Flower' cursive;
+  font-family: 'Open Sans';
 }
 
 h1 {
@@ -22,7 +22,6 @@ h2 {
 
 h3 {
   font-size: 35px;
-  font-family: 'Caveat';
   color: white;
   font-weight: normal;
 }
@@ -47,6 +46,11 @@ a {
 }
 a:hover{
 color: white;
+}
+
+table {
+  align-content: center;
+  color: white;
 }
 
 .top-container {
@@ -84,6 +88,13 @@ color: white;
   float: right;
 }
 
+.controller-img {
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+
+}
+
 .pro {
   text-decoration: underline;
 }
@@ -91,56 +102,23 @@ color: white;
 .intro {
   width: 30%;
   margin: auto;
-  color: #C06014;
+  color: white;
 }
 
 .code-description {
   clear: right;
   position: relative;
-  color: #C06014;
+  color: white;
 }
 
 .fitness-description {
   clear: left;
   position: relative;
-  color: #C06014;
+  color: white;
 }
 
-.btn {
-  background: #34d93f;
-  background-image: -webkit-linear-gradient(top, #34d93f, #2ba8b8);
-  background-image: -moz-linear-gradient(top, #34d93f, #2ba8b8);
-  background-image: -ms-linear-gradient(top, #34d93f, #2ba8b8);
-  background-image: -o-linear-gradient(top, #34d93f, #2ba8b8);
-  background-image: linear-gradient(to bottom, #34d93f, #2ba8b8);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Georgia;
-  color: #ffffff;
-  font-size: 24px;
-  padding: 11px 22px 11px 22px;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #ffffff;
-  background-image: -webkit-linear-gradient(top, #ffffff, #b3b3b3);
-  background-image: -moz-linear-gradient(top, #ffffff, #b3b3b3);
-  background-image: -ms-linear-gradient(top, #ffffff, #b3b3b3);
-  background-image: -o-linear-gradient(top, #ffffff, #b3b3b3);
-  background-image: linear-gradient(to bottom, #ffffff, #b3b3b3);
-  text-decoration: none;
-}
-
-.top-cloud {
-  position: absolute;
-  top: 300px;
-  right: 300px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  bottom: 300px;
-  left: 300px;
+.game-description {
+  clear: right;
+  position: relative;
+  color: white;
 }
